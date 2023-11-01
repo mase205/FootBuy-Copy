@@ -1,0 +1,12 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/9991e61f-a849-4f61-962a-00403ca03b1b/resourceGroups/footbuy-dv-res-g/providers/Microsoft.Web/sites/FootBuyDV",
+    "appService.deploySubpath": "project",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "App",
+            "database": "${workspaceFolder:WorkProj--1}/project/app.db"
+        }
+    ]
+}
